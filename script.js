@@ -83,7 +83,7 @@ const countries = [
   { code: "ir", name: "IRAN" },
   { code: "iq", name: "IRAQ" },
   { code: "ie", name: "IRELAND" },
-  { code: "il", name: "ISRAEL" },
+ // { code: "il", name: "ISRAEL" },
   { code: "it", name: "ITALY" },
   { code: "jm", name: "JAMAICA" },
   { code: "jp", name: "JAPAN" },
