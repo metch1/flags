@@ -273,7 +273,6 @@ function checkAnswer(choiceElement, selectedCountry) {
             updateProgress();
             loadQuestion();
         } else {
-            alert(`Game Over! Your score: ${score}/${questionSet.length}`);
             initGame();
         }
     }, 1000);
