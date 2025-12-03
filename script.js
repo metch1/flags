@@ -206,6 +206,7 @@ let questionSet = [];
 const flagImage = document.getElementById('flag-image');
 const choices = document.querySelectorAll('.choice');
 const progressFill = document.querySelector('.progress-fill');
+const progressFill3 = document.querySelector('.progress-fill-3');
 
 function shuffle(array) {
     return array.sort(() => Math.random() - 0.5);
@@ -282,6 +283,7 @@ function checkAnswer(choiceElement, selectedCountry) {
 function updateProgress() {
     const percent = (currentQuestionIndex / 15) * 100;
     progressFill.style.width = `${percent}%`;
+    progressFill3.style.width = `${percent}%`;
 }
 
 window.onload = initGame;

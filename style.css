@@ -56,9 +56,24 @@ body {
     height: 100%;
     background: #4CAF50;
     border-radius: 25px;
-    transition: width 0.3s ease;
-    z-index: 1;
+    transition: width 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
+
+.progress-fill-3 {
+    width: 0%;
+    height: 100%;
+    background: #cdf714;
+    border-radius: 25px;
+    transition: width 0.3s ease-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+} 
 
 .flag-display {
     padding: 40px 20px;
