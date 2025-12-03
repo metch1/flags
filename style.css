@@ -84,7 +84,7 @@ body {
 
 .flag-frame {
     width: 300px;
-    height: 180px;
+   /* height: 180px; */
     background: #e5e5e5;
     box-shadow: 0 8px 0px #e5e5e5;
     border-radius: 16px;
